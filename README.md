@@ -1,4 +1,4 @@
-# CWI Listening Room — Weekly Sessions
+# CWI Lab: Signal Sessions (working title — Black picks the final name)
 
 Weekly podcast of the CWI Listening Room sessions. New episode every Friday, produced Thursday from that week's session in `cwi-listening-room/sessions.json`.
 
