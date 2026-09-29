@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+<channel>
+  <title>CWI Listening Room — Weekly Sessions</title>
+  <link>https://cumulativewebinc.github.io/cwi-listening-sessions/</link>
+  <language>en-us</language>
+  <description>The weekly listening session from Cumulative Web Inc's Listening Room. Every Friday night at 8 PM Eastern, hosts Marcus and Nia open the doors, press play together with the room, and put the spotlight on the music coming out of the label — premieres, deep cuts, and the stories behind them. Setlists are published ahead of time; every track is labeled, and verified Spotify links are in the show notes.</description>
+  <itunes:author>Cumulative Web Inc</itunes:author>
+  <itunes:summary>The weekly listening session from Cumulative Web Inc's Listening Room. Every Friday night at 8 PM Eastern, hosts Marcus and Nia open the doors, press play together with the room, and put the spotlight on the music coming out of the label — premieres, deep cuts, and the stories behind them.</itunes:summary>
+  <itunes:owner><itunes:name>Cumulative Web Inc</itunes:name><itunes:email>hp@cumulativeweb.com</itunes:email></itunes:owner>
+  <itunes:image href="https://cumulativewebinc.github.io/cwi-listening-sessions/cover.jpg"/>
+  <itunes:category text="Music"/>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>episodic</itunes:type>
+  <copyright>© 2026 Cumulative Web Inc. All rights reserved.</copyright>
+  <podcast:locked>yes</podcast:locked>
+  <podcast:guid>1083248a-15c0-4b53-a4ba-8bc5cb8a5835</podcast:guid>
+</channel>
+</rss>
