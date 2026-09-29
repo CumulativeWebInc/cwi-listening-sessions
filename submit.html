@@ -2,66 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="0; url=https://cumulativeweb.com/artists/submit.html">
+<link rel="canonical" href="https://cumulativeweb.com/artists/submit.html">
 <title>Submit Your Track — CWI Lab: Signal Sessions</title>
-<style>
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px;line-height:1.6;color:#111}
-h1{font-size:1.6em}h2{font-size:1.2em;margin-top:2em}
-label{display:block;margin:12px 0 4px;font-weight:600}
-input[type=text],input[type=email],input[type=url],textarea{width:100%;padding:10px;border:1px solid #ccc;border-radius:6px;font-size:1em}
-textarea{min-height:90px}
-.consent{background:#f6f6f6;border:1px solid #ddd;border-radius:8px;padding:16px;margin:16px 0}
-button{background:#111;color:#fff;border:0;border-radius:8px;padding:14px 28px;font-size:1.05em;cursor:pointer;margin-top:12px}
-button:disabled{opacity:.4;cursor:not-allowed}
-.note{font-size:.9em;color:#555}
-</style>
 </head>
 <body>
-<h1>Submit Your Track to the Lab</h1>
-<p><strong>CWI Lab: Signal Sessions</strong> (working title) is the weekly show where we spin a track in full and run it through the CWI tool bench — live, on the air: the Trust Verdict Checker, the audio quality report (loudness/peaks), and the lyric sheet generator.</p>
-
-<h2>How it works</h2>
-<ol>
-<li>Fill in the form below and hit <strong>Send submission</strong>. It opens your email app with everything pre-filled — addressed to CWI.</li>
-<li>If your track is picked for the show, we reply with an upload inbox for your master file.</li>
-<li>On the episode: we play your track in full, run the lab tools on it live, and scorecard the results. Machine-draft lyrics stay labeled <em>draft</em> until a human corrects them.</li>
-<li><strong>Every submitting artist joins the CWI Tester Network</strong> — front-row testing of every CWI tool we build. Testers first, customers later.</li>
-</ol>
-
-<h2>Consent &amp; terms (short, on purpose)</h2>
-<div class="consent">
-<p>By submitting, you confirm:</p>
-<ul>
-<li>You <strong>own or control the rights</strong> to the track you're submitting.</li>
-<li>You grant <strong>Cumulative Web Inc</strong> permission to <strong>play the track in full</strong> on CWI Lab: Signal Sessions (audio podcast + video cut).</li>
-<li>You grant CWI permission to <strong>run its lab tools on the track on the air</strong> — loudness/peak analysis, machine-draft lyric transcription, and trust/history checks where applicable — and to publish the tool outputs as part of the episode.</li>
-<li>Your masters stay yours. We play them, we measure them, we don't claim them.</li>
-<li>No payment is promised for the submission or the play. This is a demo bench, not a licensing deal.</li>
-</ul>
-<label><input type="checkbox" id="consent"> I agree to the terms above.</label>
-</div>
-
-<h2>The form</h2>
-<form id="f" onsubmit="return send(event)">
-<label>Artist / act name <input type="text" id="artist" required></label>
-<label>Your email <input type="email" id="email" required></label>
-<label>Track title <input type="text" id="track" required></label>
-<label>Link to the track (private streaming link preferred — SoundCloud private, Drive, Dropbox) <input type="url" id="link" required placeholder="https://"></label>
-<label>Anything we should know? (rights details, release status, co-producers) <textarea id="notes"></textarea></label>
-<button id="go" disabled>Send submission</button>
-<p class="note">Opens your email app addressed to CWI with the submission + your consent statement. No account, no tracking, no third party.</p>
-</form>
-
-<script>
-const c=document.getElementById('consent'),go=document.getElementById('go');
-c.addEventListener('change',()=>go.disabled=!c.checked);
-function send(e){e.preventDefault();
-const v=id=>document.getElementById(id).value.trim();
-const body=
-'ARTIST: '+v('artist')+'\nEMAIL: '+v('email')+'\nTRACK: '+v('track')+'\nLINK: '+v('link')+'\nNOTES: '+v('notes')+
-'\n\nCONSENT: I confirm I own/control the rights to this track. I grant Cumulative Web Inc permission to play it in full on CWI Lab: Signal Sessions and to run CWI lab tools on it live on the air (audio analysis, machine-draft lyric transcription, trust/history checks) and publish the tool outputs as part of the episode. I understand machine-draft lyrics stay labeled draft, my masters stay mine, and no payment is promised for the submission or play. I want to join the CWI Tester Network.';
-location.href='mailto:hp@cumulativeweb.com?subject='+encodeURIComponent('Lab submission: '+v('track')+' — '+v('artist'))+'&body='+encodeURIComponent(body);
-return false;}
-</script>
+<p>Redirecting to the official submission form… <a href="https://cumulativeweb.com/artists/submit.html">click here if you are not redirected</a>.</p>
 </body>
 </html>
